@@ -16,6 +16,6 @@ public class Student {
     private LocalDate bornDate;
 
     @ManyToOne
-    @JoinColumn(name = "school", referencedColumnName = "schoolId")
+    @JoinColumn(name = "school_id", referencedColumnName = "schoolId")
     School school;
 }
