@@ -1,10 +1,12 @@
 package com.example.examstudentschool.school.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.example.examstudentschool.student.model.Student;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
 import lombok.Data;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Data
@@ -14,4 +16,8 @@ public class School {
     private int schoolId;
     private String schoolName;
     private String schoolAddress;
+
+    @OneToMany(mappedBy = "school")
+    @JsonBackReference
+    private Set<Student> students = new HashSet<>();
 }

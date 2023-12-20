@@ -1,7 +1,7 @@
 package com.example.examstudentschool.school.controller;
 
-import com.example.onetomanycrudbackend.school.model.School;
-import com.example.onetomanycrudbackend.school.service.SchoolService;
+import com.example.examstudentschool.school.model.School;
+import com.example.examstudentschool.school.service.SchoolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

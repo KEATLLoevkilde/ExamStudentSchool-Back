@@ -1,6 +1,6 @@
 package com.example.examstudentschool.school.service;
 
-import com.example.onetomanycrudbackend.school.model.School;
+import com.example.examstudentschool.school.model.School;
 
 import java.util.List;
 

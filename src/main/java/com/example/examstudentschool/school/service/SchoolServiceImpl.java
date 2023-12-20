@@ -1,7 +1,7 @@
 package com.example.examstudentschool.school.service;
 
-import com.example.onetomanycrudbackend.school.model.School;
-import com.example.onetomanycrudbackend.school.repository.SchoolRepository;
+import com.example.examstudentschool.school.model.School;
+import com.example.examstudentschool.school.repository.SchoolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
