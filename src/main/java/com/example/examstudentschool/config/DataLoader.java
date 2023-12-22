@@ -31,6 +31,7 @@ public class DataLoader implements CommandLineRunner {
             school.setSchoolName("School " + i);
             school.setSchoolAddress("Address " + i);
             schoolService.createSchool(school);
+
         }
     }
 
