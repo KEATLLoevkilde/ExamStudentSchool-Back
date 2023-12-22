@@ -1,7 +1,9 @@
-package com.example.examstudentschool.school.service;
+package com.example.examstudentschool.school.service.impl;
 
 import com.example.examstudentschool.school.model.School;
 import com.example.examstudentschool.school.repository.SchoolRepository;
+import com.example.examstudentschool.school.service.SchoolService;
+import com.example.examstudentschool.student.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

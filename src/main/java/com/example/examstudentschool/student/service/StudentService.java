@@ -10,4 +10,8 @@ public interface StudentService {
     Student createStudent(Student student);
     Student updateStudent(int studentId, Student student);
     void deleteStudent(int studentId);
+
+
+    List<Student> getStudentsBySchoolId(int schoolId);
+
 }
